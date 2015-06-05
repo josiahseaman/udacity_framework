@@ -5,12 +5,35 @@
 }
 
 * {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-family: 'Exo', Helvetica, sans-serif;
     border: 1px solid red !important;  /*just to see the layout */
 }
 
-.row {
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
     width: 100%;
+}
+
+.row {
+    margin: 0 0 20px 0;
+    width: 100%;
+    display: flex;
+}
+
+.end { /* total failure*/
+    position: relative;
+    right: 0;
+    float: right;
+    text-align: right;
+    justify-content: flex-end;
 }
 
 .col-1 {
