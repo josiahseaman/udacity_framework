@@ -5,34 +5,38 @@
 	<meta charset="utf-8">
 	<title>Framework Test page</title>
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">-->
-	<link rel="stylesheet" href="css/grid_framework.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/responsive_boilerplate.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link href='http://fonts.googleapis.com/css?family=Exo:100,400,500' rel='stylesheet' type='text/css'>
 
-    <!--<meta http-equiv="refresh" content="15" > &lt;!&ndash; Auto refresh for dev&ndash;&gt;-->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="refresh" content="15" > <!-- Auto refresh for dev-->
 
 </head>
 <body>
 
-<div class="grid">
+<div class="container">
 
     <div class="row">
-        <div class="col-2">
-            <h2>Nav</h2>
-            <img src="http://placekitten.com/g/180/300" alt=""/>
+        <div class="col-md-2">
+            <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix">
+                <h2>Nav</h2>
+                <img  src="http://placekitten.com/g/180/300" alt=""/>
+            </nav>
         </div>
-        <div class="col-10">
+        <div class="col-md-10">
             <div class="row header">
-                <div class="col-2"><h1>Udacity</h1></div>
-                <div class="col-10 end">
+                <div class="col-md-2"><h1>Udacity</h1></div>
+                <div class="col-md-10 text-right text-uppercase">
                     <h1>Josiah Seaman</h1>
-                    Data Analysis Expert
+                    <h4>Data Analysis Expert</h4>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-2"><h2>About Me</h2></div>
-                <div class="col-10">
+                <div class="col-md-2"><h2>About Me</h2></div>
+                <div class="col-md-10">
                     <ul>
                         <li>Founder and Manager of Newline Technical Innovations</li>
                         <li>Specializing in data visualizations and complex logic systems</li>
@@ -43,12 +47,12 @@
             </div>
 
             <div class="row">
-                <div class="col-3">
-                    <img src="http://placekitten.com/g/200/138" alt=""/>
+                <div class="col-md-3">
+                    <img  src="http://placekitten.com/g/200/138" alt=""/>
                 </div>
-                <div class="col-9 end">
+                <div class="col-md-9 end">
                     <!-- Creative Commons image-->
-                    <img src="http://upload.wikimedia.org/wikipedia/commons/6/68/Sunset_in_the_City,_Singapore_(2407189174).jpg" alt=""/>
+                    <img  src="http://upload.wikimedia.org/wikipedia/commons/6/68/Sunset_in_the_City,_Singapore_(2407189174).jpg" alt=""/>
                 </div>
             </div>
 
@@ -57,16 +61,16 @@
                     <h2>Featured Projects</h2>
                 </div>
                 <div class="row">
-                    <div class="col-4">
-                        <img src="http://dnaskittle.com/static/gfx/skittle-logo-m.png" alt=""/>
+                    <div class="col-md-4">
+                        <img  src="http://dnaskittle.com/static/gfx/skittle-logo-m.png" alt=""/>
                         <h3>DNASkittle Genome Browser</h3>
                     </div>
-                    <div class="col-4">
-                        <img src="images/Population_Map.png" alt=""/>
+                    <div class="col-md-4">
+                        <img  src="images/Population_Map.png" alt=""/>
                         <h3>Animal Disease Spread Model</h3>
                     </div>
-                    <div class="col-4">
-                        <img src="images/SWS_logo.png" alt=""/>
+                    <div class="col-md-4">
+                        <img  src="images/SWS_logo.png" alt=""/>
                         <h3>Pipescan</h3>
                     </div>
                 </div>

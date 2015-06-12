@@ -1,0 +1,9 @@
+img, embed, object, video {  /*never allow images to overflow their containers */
+    max-width: 100%;
+}
+
+nav a, button {/*//make mobile tap targets at least big enough to press*/
+    min-width: 48px;
+    min-height: 48px;
+}
+
